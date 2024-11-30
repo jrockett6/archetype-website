@@ -1,0 +1,98 @@
+body {
+    font-family: 'Dosis', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2f30;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b3d3e;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #3b3d3e;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.grid-item p {
+    font-size: 16px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #aaa;
+    font-size: 14px;
+}
